@@ -1,0 +1,107 @@
+.main_nav {
+    height: 30px;
+    background-image: linear-gradient(to right, #76e431, #46ef62cb);
+}
+
+.ayet {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 15px;
+}
+
+
+.li_icon {
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.web_name {
+    font-family: serif;
+    color: white !important;
+    font-size: 32px;
+}
+
+.li_icon:hover {
+    color: white;
+}
+
+nav {
+    background-color: #0b9393;
+    color: white !important;
+    border-top: 2px solid red !important;
+
+}
+
+nav li a {
+    color: #000000 !important;
+    font-size: 15px;
+}
+
+nav li a:hover {
+    color: black;
+    background-color: #8b5cf6;
+
+}
+.active:hover {
+    color: black;
+    background-color: #8b5cf6;
+
+}
+
+nav button {
+    color: #000000 !important;
+}
+
+nav button i {
+    color: #000000 !important;
+}
+
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+.carousel-inner .item>img {
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+}
+
+
+
+/* <-----card-----------> */
+.iconclo:hover{
+    color: #000000;
+}
+.iconclo{
+    color: white;
+    text-decoration: unset;
+}
+
+.checkicon{
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+}
+.checkicon:hover{
+    color: #8b5cf6;
+}
+.cardicone{
+    background-color: #8b5cf6;
+}
